@@ -4,6 +4,20 @@ This repository is a collective documentation of my learning and topics covered 
 
 I created this purely for reflection to be able to go back and search particualar topics covered within JavaScript, I'm an avid note taker so this definitely comes in handy digitally so I can flick back through the work I've done and have a look at what was produced.
 
+## Effective Methods of Learning
+
+For me as a visual learner, I have always found that learning from visual sources has always been beneficial in terms of my understanding and taking information in opposed to from a text book. A lot of my learning stems from Code with Mosh as mentioned and linked above, as well as [Code Wars](https//:www.codewars.com/) and [Youtube](https//:www.youtube.com/) videos. Through the content provided, I am able to visualise and take notes whilst also coding along with the content. 
+
+[Twitter](https//:www.twitter.com/) has also been incredibly useful during my time learning different languages. There's an amazing tech community where people are always willing to support and help one another. Noteable Twitter accounts that I've come across are the below:
+
+- @Thishijabicodes
+- @Ravinwashere
+- @Razacodes
+- @HanaCodes
+- @NoCSDegree
+- @dabit3
+- @diana_ashktorab
+
 ## Topics Covered
 
 Please see below a comprehensive list of the topics covered throughout the duration of the course - FYI, this is also being constantly updated.
