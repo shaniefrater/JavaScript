@@ -1,5 +1,5 @@
 /* Learning objectives:
-   - understand the pop(), push(), shift(), unshift(), concat(), reverse() methods
+   - understand the pop(), push(), shift(), unshift(), concat(), reverse(), sort() methods
 */
 const animals = ["anteater", "bison", "ant", "elephant"];
 const birds = ["pigeon", "robin", "hawk"];
@@ -23,5 +23,7 @@ console.log(all);
 
 // all.reverse();                      // reverse the array
 // console.log(all);
+
+// all.sort();                         // sorts the array alphabetically
 
 // MEMORY HOOK - watch this animation - https://simplestepscode.com/array-push-pop-shift-unshift/
