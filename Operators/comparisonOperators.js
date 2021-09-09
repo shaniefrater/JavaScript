@@ -15,3 +15,4 @@ console.log(x <= 1); // If x is less than or equal to 1
 console.log(x === 0); // Is equal to
 console.log(x !== 0); // Is not equal to
 
+console.log(Math.floor(Math.random() * 10 + 1));

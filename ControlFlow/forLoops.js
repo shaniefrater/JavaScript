@@ -9,6 +9,7 @@ for (let i = 0; i < 5; i++) {
     console.log("Hello World");
 }
 
-
-
-
+var loopArrLength = loopArr.length;
+for (var i = 0; i < loopArrLength; i++) {
+    console.log(loopArr[i]);
+} 

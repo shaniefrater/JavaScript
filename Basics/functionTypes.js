@@ -17,6 +17,3 @@ let number = square(2);
 console.log(number);
 
 // Simplified return
-
-console.log(square(2));
-

@@ -1,5 +1,6 @@
 // Objects are like people, each with their own qualities (properties)
 // When you have multiple properties that can fit into an object, like a car, here you will use it
+// Objects are mutable which means values can be changed
 
 let myself = {
     firstName: "Shanie",
@@ -17,7 +18,7 @@ let car = {
 
 console.log(car);
 
-// Each property included is calleld a Key Value Pair
+// Each property included is called a Key Value Pair
 // If you want to change one of the Key Value Pairs, you need to access the "Dot Notation"
 
 car.brand = "BMW";

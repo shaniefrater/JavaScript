@@ -8,3 +8,5 @@ let secondName; // Not defined so will return undefined
 let middleName = null; // Null is used when you want to clear the name of a variable
 
 console.log(firstName, age, isBritish);
+
+// Primitive types are immutable (which means they cannot be changed after they've been defined)

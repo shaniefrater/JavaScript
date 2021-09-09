@@ -27,3 +27,20 @@ console.log(all);
 // all.sort();                         // sorts the array alphabetically
 
 // MEMORY HOOK - watch this animation - https://simplestepscode.com/array-push-pop-shift-unshift/
+
+function loopArr(arr, direction, steps) {
+
+   for (let i = 0; i < steps; i++) {
+      if (direction == "left") {
+         const shiftedValue = arr.shift();
+         arr.push(shiftedValue);
+      }
+
+      else if (direction == "right") {
+         const popValue = arr.pop();
+         arr.unshift(popValue);
+      }
+   }
+   return arr;
+}
+
