@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 1</title>
+</head>
+
+<body>
+    <h1> Challenge 1</h1>
+    <h3> Create an HTML page containing a Button. Add another Button with the words "Switch it" on it, which disables
+        myButton when pressed and then enables it when pressed again. Clue - there is a .disabled property on a button!
+    </h3>
+    <button id="switchIt" onclick="toggleButton()">Switch It</button>
+    <button id="myButton">My Button</button>
+
+    <script>
+        function disableBtn() {
+            document.getElementById("myButton").disabled = true;
+        }
+
+        function enableBtn() {
+            document.getElementById("myButton").disabled = false;
+        }
+
+        let currentState = document.getElementById("myButton").disabled
+
+        function toggleButton() {
+            let currentState = document.getElementById("myButton").disabled
+
+            console.log(currentState);
+
+            if (currentState == true) {
+                enableBtn();
+            } else {
+                disableBtn();
+            }
+        }
+    </script>
+
+</body>
+
+</html>

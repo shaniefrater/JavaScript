@@ -2,6 +2,7 @@
 // Days of the week always start from Sunday
 // The Z in the time stands for ZULU time (GMT)
 // Months start at 0, so January is 0, December is 11
+// When logging a date in a string, it's the correct form (27 / 02 / 2021 = January) VS cntstructed in number parameters = actual index form
 
 let myDate = new Date;                   // Makes new instance for the current d/time scenario
 console.log(myDate);
@@ -14,15 +15,30 @@ console.log(myDate1.toString());          // Creates a stringified date (Monday 
 let today2 = new Date(1164411006456);   // 1164411006456 was 1164411006456 many milliseconds after 01/01/1970
 console.log(today2);
 
-let myPastDate = new Date(2021,01,15);  // Parsing in a previous date
+let myPastDate = new Date(2021,01,15, 0, 0, 0, 0);  // Parsing in a previous date
 console.log(myPastDate.toString());
 
-// Complete the code below - if my output is Mon Sep 06 2021 15:07:13 GMT+0100, what was my input?
+// console.log(getFullMonth());
+// Complete the code below - if the output is the current date and time (10/09/2021), what was my input?
 
-// let myDate = new Date;
-// console.log(______);
+let todaysDate = new Date;
+console.log(todaysDate.toString());
 
 // (a. console.log(myDate);
-// (b. console.log(myDate.toString));
+// (b. console.log(myDate.toString());
 // (c. console.log(new Date);
 // (d. console.log(Date);
+
+
+const date = new Date("2021/2/27");
+console.log(date.getDate() + "/" + date.getMonth() + "/" + date.getFullYear());
+
+// toDateString(); will only show the date and NO time
+
+let now = new Date();
+
+let fiveDaysAgo = now.getDate()-5; // getting the date and minusing 5
+
+now.setDate(fiveDaysAgo);
+
+console.log(now.toString());

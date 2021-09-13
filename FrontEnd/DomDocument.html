@@ -1,0 +1,39 @@
+The HTML DOM document object is the owner of all other objects in your web page.
+
+The document object represents your web page / To access anelement start with accessing the document object.
+
+FINDING ELEMENTS: (get)
+
+M   document.getElementById(id)	                            Find an element by element id
+M   document.getElementsByTagName(name)	                    Find elements by tag name
+M   document.getElementsByClassName(name)	                Find elements by class name
+
+CHANGING ELEMENTS:(element.)
+
+P   element.innerHTML =  new html content	                Change the inner HTML of an element
+P   element.attribute = new value	                        Change the attribute value of an HTML element
+P   element.style.property = new style	                    Change the style of an HTML element
+
+M   element.setAttribute(attribute, value)	                Change the attribute value of an HTML element
+
+ADDING & DELETING ELEMENTS: (document.)
+
+M   document.createElement(element)	                        Create an HTML element
+M   document.removeChild(element)	                        Remove an HTML element
+M   document.appendChild(element)	                        Add an HTML element
+M   document.replaceChild(new, old)	                        Replace an HTML element
+M   document.write(text)	                                Write into the HTML output stream
+
+ADDING EVENT HANDLERS: (document. w/onclick)
+
+M   document.getElementById(id).onclick = function(){code}	Adding event handler code to an onclick event
+
+    * document. can also return elements such as Anchors, forms, embeds etc
+
+    * document. with a physical method I.E. Remove / Create are for the purpose of ADDING and DELETING ELEMENTS
+    * document. with the element at the end are to physically return that element
+
+    <document.createElement>   - Creates a new element
+    <document.documentElement> - Returns the HTML <docType>
+
+E.g. document.(verb) = ADD OR delete & document.(element) retrieve element

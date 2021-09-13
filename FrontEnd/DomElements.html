@@ -1,0 +1,30 @@
+The easiest way to find an HTML element in the DOM, is by using the element id.
+
+BY ID:
+    const element = document.getElementById("intro");       = Finding via the 'intro' element>
+
+BY TAG NAME: (<p>)
+    const element = document.getElementsByTagName("p");     = Finding via Tag Name. E.g. <form></form> / <p></p> etc
+
+BY TAG NAME AND ID:
+    const x = document.getElementById("main");              = Finds via Tag name and then ID
+    const y = x.getElementsByTagName("p");
+
+BY CLASS NAME: 
+
+    const x = document.getElementsByClassName("intro");     = Finds via Class Name
+
+BY CLASS SELECTORS:
+    const x = document.querySelectorAll("p.intro");         = Finding via CSS query SELECTORS
+    
+
+
+
+
+
+
+
+
+
+
+
