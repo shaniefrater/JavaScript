@@ -1,7 +1,7 @@
 // Adding and removing from Arrays
 // You can do this using the Push, Pop, Shift, Unshift and Splice methods
 
-const numbers = [1, 2];
+const numbers = [1, 2, 3, 4, 5, 6];
 
 numbers.push(3, 4); // Adding 3 & 4 to the END of an array
 
@@ -18,4 +18,4 @@ numbers.splice      // Adding a new element in the MIDDLE of the code
                     // z = what you want to add
 
 
-                    
+console.log(numbers.splice(2, 1));

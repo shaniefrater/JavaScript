@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 4</title>
+</head>
+
+<body>
+    <h1> Challenge 4 </h1>
+    <h3> Create a HTML page which displays the current date when a button is clicked.
+    </h3>
+    <button id="todaysDate" onclick="displayDate()">What is today's current date?</button>
+    <script>
+        var emptyP = document.getElementById("");
+        var d = new Date();
+
+        function displayDate() {
+            alert("Today's Date is:" + d.toString());
+            return emptyP.innerHTML = d.getDate();
+        }
+    </script>
+</body>
+
+</html>

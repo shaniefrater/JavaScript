@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2> Challenge 5 </h2>
+    <h3> Create a HTML page which displays the URL of the current page when you click a button</h3>
+    <button id="showUrl" onclick="showUrl()"> What is the page URL? </button>
+    <script>
+        function showUrl() {
+            let url = document.getElementById("showUrl").innerHTML = "The full URL of this page is:" + window.location.href;
+            alert(url);
+            return url.innerHTML = d.showUrl();
+        }
+    </script>
+</body>
+
+</html>

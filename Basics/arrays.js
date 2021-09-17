@@ -17,4 +17,32 @@ console.log(carTypes);
 
 console.log(carTypes.length); // Using the "Dot Notation" this will return how many elements are stored in this array
 
+// noType is an Object
+// null is undefined
+// document.forms (id of the form)
+// eckmouth5 not eckmouth 6
 
+console.log(Math.min("-1", "6.0f", "-1.1", "0.9", "9.3"));
+console.log(Math.max(-5, -2, 1, 2.2, -1));
+
+const myArray = [1, -3, -2,  -3.5,  4,  6]
+console.log(Math.min(myArray));
+
+// for (i=0; i < myArray.length; i++ ) {
+//     console.log(myArray[i]);
+// }
+
+// const myString = "Hello  Word! ";
+// console.log(myString.slice(8, 9));
+
+// const  myString1 = "Hello Word! "
+// console.log(myString1.length);
+
+// console.log(myString1.lastIndexOf(" "));
+
+const myString = "Hello Word! ";
+console.log(myString.indexOf("o", 5));
+
+// NaN?
+// console.log(Math.pow(-4, 0.5))
+// console.log(Math.sqrt(-9));

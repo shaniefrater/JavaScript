@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 3</title>
+</head>
+
+<body>
+    <h1> Challenge 3 </h1>
+    <h3> Create a HTML page which changes from one image to another when the user hovers their mouse over the image.
+    </h3>
+    <a href="#"></a>
+    <img onmouseover="bigImg(this)" onmouseout="normalImg(this)"
+        src="http://assets.stickpng.com/images/5ecec78673e4440004f09e77.png" alt="Logo" width="48" height="48">
+    </a>
+    <script>
+        function bigImg(x) {
+            x.src = "https://www.nicepng.com/png/full/68-682147_ig-icon-pink-instagram.png"
+            x.style.height = "48px";
+            x.style.width = "48px";
+        }
+
+        function normalImg(x) {
+            x.src="http://assets.stickpng.com/images/5ecec78673e4440004f09e77.png"
+            x.style.height = "48px";
+            x.style.width = "48px";
+        }
+    </script>
+</body>
+<html>

@@ -12,7 +12,7 @@ console.log(name3.endsWith("e"));      // TRUE or FALSE = returns FALSE as it do
 console.log(name4.trim);               // When spaces are used at the beginning or end, this can essentially clean up the code
 console.log(name1.repeat(8));          // repeats string x amount of times
 console.log(name3.substring(5, 8));    // take part of a string and return as NEW string e.g. Pool
-console.log(name2.slice);              // slice
+console.log(name2.slice(2,5));              // slice
 
 // In EVERY case, this is not changing the value, it is creating a new string
 
@@ -27,14 +27,3 @@ let popularCars = {
 
 console.log(popularCars.porsche.slice(1,3));
 console.log(popularCars.lamborghini.lastIndexOf("i"));
-
-// a. [el], [-1]
-// b. [el], [10]
-// c. [el], [null]
-// d. [ell] [10]
-// e. Reference Error
-
-
-// We asked students their favourite shows on Netflix. What is logged when the following code runs? 
-
-// BONUS: Complete the extra code to uncover the hidden message
