@@ -12,7 +12,7 @@ console.log(name3.endsWith("e"));      // TRUE or FALSE = returns FALSE as it do
 console.log(name4.trim);               // When spaces are used at the beginning or end, this can essentially clean up the code
 console.log(name1.repeat(8));          // repeats string x amount of times
 console.log(name3.substring(5, 8));    // take part of a string and return as NEW string e.g. Pool
-console.log(name2.slice(2,5));              // slice
+console.log(name2.slice(2,5));         // slice
 
 // In EVERY case, this is not changing the value, it is creating a new string
 
